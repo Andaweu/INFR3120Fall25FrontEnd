@@ -25,21 +25,18 @@
               }
             ],
             "styles": [
-              "src/content/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/content/styles.css"
             ],
-            "scripts":[
-              "src/scripts/app.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
-            ],
+            "scripts": [],
+           "outputMode": "static"
+          },
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
-          },
+            },
           "configurations": {
             "production": {
               "budgets": [
