@@ -8,7 +8,7 @@ applications:
             - npm ci
         build:
           commands:
-            - npm run build -- --configuration production --output-mode=browser
+            - npm run build -- --configuration production --output-mode=static
       artifacts:
         baseDirectory: dist/ReDrivienAngular/browser
         files:
